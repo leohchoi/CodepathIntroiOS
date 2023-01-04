@@ -18,8 +18,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var numberOfPetsLabel: UILabel!
     
     @IBAction func introduceSelfDidTap(_ sender: UIButton) {
-        let year = yearSegmentedControl.titleForSegment(at: yearSegmentedControl.selectedSegmentIndex)
-        let introduction = "Hey guys! My name is \(firstNameTextField.text!) \(lastNameTextField.text!) and I attend \(schoolNameTextField.text!). I am currently in my \(year!) and I own \(numberOfPetsLabel.text!). It is \(morePetsSwitch.isOn) that I want more pets. My hobbies include cafe hopping and just chilling with my friends, while also coding and learning new technologies here and there :D"
+        let year = yearSegmentedControl.titleForSegment(at: yearSegmentedControl.selectedSegmentIndex)?.lowercased()
+        let introduction = "Hey guys! My name is \(firstNameTextField.text!) \(lastNameTextField.text!) and I attend \(schoolNameTextField.text!). I am currently in my \(year!) year and I own \(numberOfPetsLabel.text!) pet(s). It is \(morePetsSwitch.isOn) that I want more pets. My hobbies include cafe hopping and just chilling with my friends, while also coding and learning new technologies here and there :D"
 //        print(introduction)
         let alertController = UIAlertController(title: "My Introduction", message: introduction, preferredStyle: .alert)
         
