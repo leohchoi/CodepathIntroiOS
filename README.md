@@ -6,7 +6,7 @@ This is the prework for CodePath IOS102. This self-introduction app allows us to
 
 ### App Walk-though
 
-<img src="https://i.imgur.com/BRx1OOB.gif" width=200><br>
+<video src="https://i.imgur.com/BRx1OOB.gif" width=200><br>
 
 ### Required Features
 
