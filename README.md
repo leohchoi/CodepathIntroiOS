@@ -6,8 +6,8 @@ This is the prework for CodePath IOS102. This self-introduction app allows us to
 
 ### App Walk-though
 
-<!--<img src="https://i.imgur.com/BRx1OOB.gifv" width=200><br>-->
-<video src="https://i.imgur.com/BRx1OOB.mp4"/>
+<img src="https://i.imgur.com/BRx1OOB.mp4" width=200><br>
+<!--<video src="https://i.imgur.com/BRx1OOB.mp4"/>-->
 <!--<video width=200>-->
 <!--<source src="https://i.imgur.com/BRx1OOB.gif" type="video/mp4">-->
 <!--</video>-->
